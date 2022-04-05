@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.cant--carrito{
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    border: 2px solid white;
+    background-color: rgb(46, 126, 255);
+    border-radius: 20px;
+}
+
+.item{
+    text-decoration: none;
+    margin-left: 24px;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+}
+
+.sidebar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    position: absolute;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
+    flex-direction: column;
+    border: 2px solid rgb(46, 126, 255);
+    border-radius: 20px;
+    width: 40%;
+    visibility: hidden;
+    left: 57%;
+    background-color: white;
+}
+
+.active{
+    visibility: visible;
+}
+
+footer{
+    height: 200px;
+    background-color: rgb(243, 243, 243);
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: 150px;
+    grid-template-areas: "logoF contactoF redesF";
+    margin-top: 10px;
+}
+
+.footer__logo{
+    grid-area: logoF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer__img{
+    width: 30%;
+}
+
+.footer__contacto{
+    grid-area: contactoF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.redes{
+    grid-area: redesF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.redes__item{
+    list-style-type: none;
+}
+
+.footer__info{
+    list-style-type: none;
+}
+
+
+/*Cards del ecommerce*/
+
+.caja{
+    margin: auto;
+    width: 70%;
+}
+
+
+
+.caja--img{
+    width: 300px;
+}
+
+.caja--datos{
+    text-align: center;
+    
+}
+
+
+/*CARDS DE CARRITO*/
+
+.caja--carrito{
+    width: 200px;
+    text-align: center;
+}
+
+.caja-carrito-img{
+    width: 150px;
+}
+
+.caja--carrto--datos{
+    border: 1px solid red;
+    color: white;
+    font-weight: bold;
+}
+
+
+/*Index*/
+
+.introduccion{
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: 100%;
+    grid-template-rows: 350px 500px;
+    grid-template-areas: "fotoIntro"
+                         "hellbot";
+}
+
+.fotoImpresoras{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-area: fotoIntro;
+}
+
+.imgImpresoras{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.fotosHellbot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-area: hellbot;
+}
+
+/*Ubicacion*/
+
+.cardUbicacion{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titUbicacion{
+    margin-top: 15px;
+}
+
+.ubicacion__texto{
+    margin-left: 20px;
+}
+
+/*Contacto*/
+
+.cardContacto{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.swal2-confirm{
+   background-color: rgb(46, 126, 255);
+}

@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "nombre": "Magna SE",
+        "marca": "Hellbot",
+        "precio": 41000,
+        "stock": 40,
+        "img": "hellbot-magna-se.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "B1",
+        "marca": "Biqu",
+        "precio": 43000,
+        "stock": 20,
+        "img": "biqu-b1.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "CR 6",
+        "marca": "Creality",
+        "precio": 72000,
+        "stock": 25,
+        "img": "creality-cr6.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Apollo Mono",
+        "marca": "Hellbot",
+        "precio": 70000,
+        "stock": 20,
+        "img": "hellbot-apollo-mono.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "B2",
+        "marca": "Biqu",
+        "precio": 50000,
+        "stock": 35,
+        "img": "biqu-b2.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "CR 10",
+        "marca": "Creality",
+        "precio": 100000,
+        "stock": 15,
+        "img": "creality-cr10.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Hidra",
+        "marca": "Hellbot",
+        "precio": 76000,
+        "stock": 45,
+        "img": "hellbot-hidra.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Halot One",
+        "marca": "Creality",
+        "precio": 52000,
+        "stock": 25,
+        "img": "creality-halot-one.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Magna 230",
+        "marca": "Hellbot",
+        "precio": 49000,
+        "stock": 30,
+        "img": "hellbot-magna-230.jpg"
+    }
+
+]
